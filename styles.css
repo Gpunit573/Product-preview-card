@@ -63,6 +63,7 @@ b
 span
 {
     text-decoration: line-through;
+    opacity:0.5;
 }
 .purchase
 {
