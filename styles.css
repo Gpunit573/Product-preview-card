@@ -15,14 +15,14 @@
 }
 body
 {
-    background-image:var(--cream);
+    background-image:var(--white);
 }
 .card
 {
     display:flex;
     flex-direction: row;
     height:450px;
-    width:600px;
+    max-width:600px;
     margin:15rem auto;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--cream);
