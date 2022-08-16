@@ -20,20 +20,71 @@ body
 .card
 {
     display:flex;
-    height:450px;
-    width:800px;
-    margin:auto;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
     flex-direction: row;
+    height:450px;
+    width:600px;
+    margin:15rem auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cream);
+    border-radius:25px;
+    
+}
+p
+{
+    opacity:0.5;
+}
+#title
+{
+    letter-spacing: 5px;
 }
 .product-image img
 {
     height:450px;
     overflow:hidden;
+    border-radius:25px 0px 0px 25px;
 }
 .product-text
 {
     display:flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    padding-left:10px;
+}
+strong,b
+{
+    font-size:32px;
+    font-weight:700;
+    word-spacing:10px;
+}
+b
+{
+    color:var(--dark-cyan)
+}
+span
+{
+    text-decoration: line-through;
+}
+.purchase
+{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width:250px;
+    background-color: var(--dark-cyan);
+    border-radius:10px;
+    padding-left:10px;
+    margin:0px auto;
+}
+.purchase a
+{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+    font-weight:700;
+}
+.purchase:hover
+{
+    background-color:var(--very-dark-blue);
 }
